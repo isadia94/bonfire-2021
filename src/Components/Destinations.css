@@ -1,0 +1,146 @@
+.destinations_page {
+  position: absolute;
+  top: 100vh;
+  height: 100vh;
+  /* margin-top: 10px; */
+  width: 100%;
+  padding: 20px 20px 0 20px;
+  background: rgb(247, 241, 241);
+}
+
+.destination_greeting > h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 122%;
+  margin: 19px 0 16px 0;
+  color: rgba(0, 0, 0, 0.534);
+}
+
+.destination_text > h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 122%;
+  margin-bottom: 30px;
+}
+
+.destination_country {
+  /* margin-top: 20px; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.destination_country > a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.destination_country > a.active {
+  color: rgba(63, 229, 59, 1);
+  border-bottom: 2px solid brown;
+}
+
+.destination_categoryLink {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+
+.destination_categoryLink > h4 {
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.603);
+}
+
+.destination_categoryLink > a {
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.destination_categoryLinkActivity {
+  margin-bottom: 55px;
+}
+
+.category_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.destination_categoryCard {
+  width: 76px;
+  height: 76px;
+}
+.destination_categoryCard > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.destination_card > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.destinations_popular {
+  margin-top: 80px;
+}
+
+.destinations_popular > h4 {
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.destination_items {
+  display: flex;
+}
+
+.destination_card {
+  width: 230px;
+  height: 302px;
+  margin-bottom: 25px;
+  /* margin-right: 40px; */
+  position: relative;
+}
+
+.destination_info {
+  position: absolute;
+  bottom: 12%;
+  padding: 0 20px 0 20px;
+  color: white;
+  z-index: 100;
+}
+
+.destination_card::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.267);
+  border-radius: 16px;
+}
+
+.destination_info p {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+
+.location_icon {
+  font-weight: 300 !important;
+  font-size: 12px !important;
+}

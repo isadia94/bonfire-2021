@@ -1,0 +1,61 @@
+.popular__stays {
+  position: absolute;
+  top: 200vh;
+  height: 100vh;
+  width: 100%;
+
+  padding: 20px 20px 0 20px;
+}
+
+.popular__stays > h4 {
+  font-size: 22px;
+}
+
+.popular__all {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.popular__all > h5 {
+  font-size: 15px;
+}
+
+.popular__all > .view__all {
+  font-size: 12px;
+  text-decoration: none;
+  color: rgba(96, 233, 48, 0.88);
+}
+
+.filter__section {
+  height: 150px;
+  width: 100%;
+  background-color: #f8f8f8;
+  margin-top: 15px;
+  padding: 10px;
+}
+
+.venue {
+  width: 100%;
+  outline: none;
+  height: 35px;
+  border: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.date__numberRooms {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.date__numberRooms > input {
+  width: 49%;
+  height: 35px;
+  outline: none;
+  border: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hotels {
+  margin-top: 30px;
+}
